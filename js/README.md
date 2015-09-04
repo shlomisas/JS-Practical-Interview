@@ -38,7 +38,7 @@
     1. If/else/..
     2. Async condition?
 16. Misc
-    1. Why to use !! operator sometimes?
+    1. Why to use !! operator sometimes? ([Nati](https://github.com/Natinux) know that :)
 17. DOM
     1. What is element/attribue
     
