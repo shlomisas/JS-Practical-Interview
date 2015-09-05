@@ -17,7 +17,6 @@
 * [Conditions](code/src/conditions.js)
 * [OOP](code/src/oop.js) 
 * [Timers](code/src/timers.js)
-    1. When to use setTimeout and setInterval?
 * Loops
     1. Loop an array
         1. ES5?
