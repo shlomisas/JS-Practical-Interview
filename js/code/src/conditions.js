@@ -8,7 +8,12 @@ import helper from './utils/helper';
 
 (()=>{
     // Assume:
-    let a = 6, foo = function(){/* hint: maybe perform some heavy logic */};
+    let a = 6;
+
+    function foo(){
+        // Hidden implementation
+        // Hint: maybe perform some heavy logic
+    }
 
     // What's looks better way to write your code, this:
     if (foo() && a === 5) {}
@@ -19,29 +24,19 @@ import helper from './utils/helper';
 
 
 // ### Async condition
-(()=>{
+((user)=>{
 
-    let data;
-
-    let load = function(){
-        return new Promise((resolve)=>{
-            setTimeout(()=>{
-                resolve('some data');
-            }, 1000);
-        });
-    };
-
-    let after = function(data){
-        helper.log('The data is: ' + data);
-    };
-
-    if('undefined' === data){
-        load().then(after);
-    }else{
-        after(data);
+    function after(user){
+        helper.log('Got user data: ' + user);
     }
 
-    // How to make this `async condition` without use the `after` function?
-})();
+    if('undefined' === typeof user){
+        helper.loadFakeUserData().then(after);
+    }else{
+        after(user);
+    }
+
+    // How to make this `async condition` without use the `after` function way (hint: promises)?
+})(/*helper.getFakeUserData(1, 'JRRT')*/);
 
 

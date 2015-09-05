@@ -15,5 +15,17 @@ export default {
                 resolve(url);
             }, 3000);
         });
+    },
+    getFakeUserData(id, username){
+        return {id: id || 1, username: username || 'Shlomi Sasson', toString(){
+            return 'id: '+this.id+', name: '+this.username;
+        }}
+    },
+    loadFakeUserData(){
+        return new Promise((resolve)=>{
+            setTimeout(()=>{
+                resolve(this.getFakeUserData());
+            }, 3000);
+        });
     }
 }
