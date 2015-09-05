@@ -33,7 +33,7 @@ class A{
         helper.log('All is good..');
     });
 
-    // Replace the code within A.load and a.load callback to use a promise?
+    // What modifications required so the code will be promise-able?
 })();
 
 (()=> {
@@ -51,6 +51,6 @@ class A{
         });
     });
 
-    // After converted all use promises (from previous) how to make sure all async promises are done without using this forEach loop?
+    // After converted all use promises (from previous) modify this code so all async promises will done without using the forEach loop?
 })();
 
