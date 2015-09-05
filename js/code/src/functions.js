@@ -9,7 +9,7 @@ import helper from './utils/helper';
 
     for (var i = 0; i < 5; i++) {
         setTimeout(function() {
-            console.log(i);
+            helper.log(i);
         }, 1000);
     }
 
