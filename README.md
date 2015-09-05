@@ -1,5 +1,5 @@
 # Interviews (practical) questions and code samples..
-### The major point is not to ask puzzles like: you have "you have an array with 100 cells.." but more practical questions like "What is an OOP interface", "What is the diff between `var` and `let` (JS)" and so on.. 
+### The major point is not to ask puzzles like: you have "you have an array with 100 cells.." but more practical questions like "What is an OOP interface?", "What is the diff between `var` and `let`? (JS)" and so on.. 
 
 Here following subjects i'll try to cover:
 
