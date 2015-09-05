@@ -8,7 +8,7 @@ import helper from './utils/helper';
 
 (()=>{
     // Assume:
-    let a = 6, foo = function(){/* maybe with some heavy logic */};
+    let a = 6, foo = function(){/* maybe perform some heavy logic */};
 
     // What's looks better way to write your code, this:
     if (foo() && a === 5) {}
