@@ -51,6 +51,6 @@ class A{
         });
     });
 
-    // After convereted all use promises (from previous) how to make sure all async promises are done without using this forEach loop?
+    // After converted all use promises (from previous) how to make sure all async promises are done without using this forEach loop?
 })();
 

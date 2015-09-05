@@ -10,16 +10,15 @@ import helper from './utils/helper';
     // Assume:
     let a = 6, foo = function(){/*TBD*/};
 
-// What's looks better way to write your code, this:
+    // What's looks better way to write your code, this:
     if (foo() && a === 5) {}
-// OR:
+    // OR:
     if (a === 5 && foo()) {}
-// Why?
+    // Why?
 })();
 
 
 // ### Async condition
-
 (()=>{
 
     let data;
@@ -42,7 +41,7 @@ import helper from './utils/helper';
         after(data);
     }
 
-    // How to make this async-condition without the `after` function?
+    // How to make this `async condition` without use the `after` function?
 })();
 
 

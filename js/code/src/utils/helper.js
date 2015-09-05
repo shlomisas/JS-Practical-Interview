@@ -8,5 +8,12 @@ export default {
     },
     error: function(e){
         console.error(e);
+    },
+    fakeAjax: function(url){
+        return new Promise((resolve, reject)=>{
+            setTimeout(()=>{
+                resolve(url);
+            }, 3000);
+        });
     }
 }

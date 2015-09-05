@@ -37,4 +37,5 @@ setTimeout(b.render.bind(b), 1000);
 // 1. What will be the output of this?
 // 2. How to output the A.render also?
 // 3. What will be A.render output?
+// 4. How to do all that in ES5?
 

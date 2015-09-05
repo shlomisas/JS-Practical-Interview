@@ -5,21 +5,32 @@
 import helper from './utils/helper';
 
 (()=> {
-    class A{
-        registerTimer(cb){
-            setInterval(cb, 1000)
+
+    let a = {
+        interval: 1000,
+        tick(cb){
+            setInterval(cb, this.interval);
         }
-    }
+    };
 
-    let a = new A();
-
-    a.registerTimer(()=>{
+    a.tick(()=>{
         helper.log('A second has ticked!');
     });
 
-    a.registerTimer(()=>{
+    a.tick(()=>{
         helper.log('A second has ticked!');
     });
 
     // How to make sure A's instances won't hold more that 1 active timer?
+})();
+
+(()=> {
+    setInterval(function(){
+        // Assume helper.fakeAjax goes to some remote resource..
+        helper.fakeAjax('/log').then(()=>{
+            helper.log('Log read!');
+        })
+    }, 1000);
+
+    // WHat's the (timing) problem and how to fix that?
 })();
