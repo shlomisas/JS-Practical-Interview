@@ -29,7 +29,6 @@
             1. ES5?
             2. ES6?
         3. It'll be easy to send it to some RESTful API?
-    2. H
 * Patterns
     1. What is Proxy pattern and how to implement it?
     2. What is Singleton pattern and how to implement it?

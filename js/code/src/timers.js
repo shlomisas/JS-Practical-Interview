@@ -8,16 +8,16 @@ import helper from './utils/helper';
 
     let a = {
         interval: 1000,
-        tick(cb){
+        startTimer(cb){
             setInterval(cb, this.interval);
         }
     };
 
-    a.tick(()=>{
+    a.startTimer(()=>{
         helper.log('A second has ticked!');
     });
 
-    a.tick(()=>{
+    a.startTimer(()=>{
         helper.log('A second has ticked!');
     });
 
