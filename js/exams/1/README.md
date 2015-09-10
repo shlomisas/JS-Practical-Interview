@@ -30,6 +30,6 @@ The UI include the following flows:
 
 for any questions please ping me on rnd@sizewhiz.com  
 
-Wish you good luck,  
+Wish you good luck, 
 Shlomi.
      
