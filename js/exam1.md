@@ -28,5 +28,7 @@ The UI include the following flows:
     * For the player use [this iFrame SDK](https://developers.google.com/youtube/iframe_api_reference)
 * Please try express yourself as much you can, try to use your daily basis coding so we can see your level and knowledge
 
-Wish you good luck, s.
+for any questions please ping me on rnd@sizewhiz.com  
+Wish you good luck,  
+Shlomi.
      
