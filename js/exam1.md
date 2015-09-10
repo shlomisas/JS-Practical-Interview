@@ -13,7 +13,7 @@ Here is a mockup:
 ![alt tag](ui_mocks/exam1.png)
 
 The UI include the following flows:  
-* User search on YouTube, get back relevant results per his query
+* User search a YouTube's video and get back relevant results for his query.
 * Each search result contain the following fields: video thumbnail, name, num of votes and a play button
 * When click play button, the YouTube player underneath start play the video. also, a new `history` record will save into our database and will add to the history list on the left.
 * When click on a video form the history list, it'll play in the player. 
