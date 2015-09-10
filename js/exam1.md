@@ -1,0 +1,30 @@
+# Practical JS Exam for programmer #1
+
+## General
+
+The purpose of the exam is to be short as possible but to examinate your practical coding.  
+As we know, there are many good and bad ways to implement things so there is no one soution for this so do your best, with the pactices you know to deliver it.
+
+The task is quite simple, you need to build a small web app with ability to search on YouTube, show the selected results on a (YouTube) player and save it as history into our database. 
+    
+## UI
+![alt tag](ui_mocks/exam1.png)
+
+The UI include the following flows:  
+* User search on YouTube, get back relevant results per his query
+* Each search result contain the following fields: video thumbnail, name, num of votes and a play button
+* When click play button, the YouTube player underneath start play the video. also, a new `history` record will save into our database and will add to the history list on the left.
+* When click on a video form the history list, it'll play in the player. 
+* When user click `delete` on each history record, it'll delete from the database and will remove form the history list.
+
+## Principles
+* Implement all with JavaScript, for frontend and backend.
+* On both, frontend and backend, you can select any Frameworks you want to use but try to use the most popular and not some indi ones.
+* For a database, please use Mongo or MySql.
+* For YouTube operations use the following:  
+    * For the search use [this Search API](https://developers.google.com/youtube/v3/docs/search) 
+    * For the player use [this iFrame SDK](https://developers.google.com/youtube/iframe_api_reference)
+* Please try express yourself as much you can, try to use your daily basis coding so we can see your level and knowledge
+
+Wish you good luck, s.
+     
