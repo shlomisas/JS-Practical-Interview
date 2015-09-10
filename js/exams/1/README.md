@@ -10,7 +10,7 @@ The task is quite simple, you need to build a small web app with ability to sear
 ## UI
 
 Here is a mockup:
-![alt tag](ui_mocks/exam1.png)
+![alt tag](mock.png)
 
 The UI include the following flows:  
 * User search a YouTube's video and get back relevant results for his query.
