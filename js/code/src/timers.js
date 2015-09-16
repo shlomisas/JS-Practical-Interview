@@ -14,7 +14,7 @@ import helper from './utils/helper';
     };
 
     a.startTimer(()=>{
-        helper.log('A second has ticked!');
+        helper.log('A first has ticked!');
     });
 
     a.startTimer(()=>{
