@@ -1,7 +1,7 @@
 # Practical JS Interview Questions
 
 * General
-    1. What is a `module` is JS?
+    1. What is a `module` pattern in JS?
     2. What is an `object`, `function` and `prototype`?
     3. How you can check if something is:
         1. string?
