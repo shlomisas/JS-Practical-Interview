@@ -6,19 +6,22 @@ import helper from './utils/helper';
 
 // ### Common conditions
 
-(()=>{
-    // Assume:
-    let a = 6;
+((a, foo)=>{
 
-    function foo(){
-        // Hidden implementation
-        // Hint: maybe perform some heavy logic
-    }
+    if('function' !== typeof foo) return;
 
-    // What's looks better way to write your code, this:
+    // What's looks better way to write your code?
+
+    // This:
     if (foo() && a === 5) {}
-    // OR:
+    // OR This:
     if (a === 5 && foo()) {}
+    // Why?
+
+    // This:
+    if (foo() || a === 5) {}
+    // OR This:
+    if (a === 5 || foo()) {}
     // Why?
 })();
 
