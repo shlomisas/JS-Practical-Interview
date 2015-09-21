@@ -1,0 +1,91 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1429" measuredH="640" mockupW="917" mockupH="605">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="512" y="35" w="917" h="605" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//localhost%3A30009</text>
+      </controlProperties>
+    </control>
+    <control controlID="23" controlTypeID="com.balsamiq.mockups::Canvas" x="745" y="165" w="451" h="70" measuredW="100" measuredH="70" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::TextInput" x="738" y="128" w="465" h="-1" measuredW="132" measuredH="27" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Search%20on%20YouTube..</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Image" x="750" y="169" w="87" h="59" measuredW="77" measuredH="79" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Video%20Thumb</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::SubTitle" x="841" y="172" w="277" h="-1" measuredW="164" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Video%20%231%20Name</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Button" x="1133" y="187" w="48" h="27" measuredW="50" measuredH="27" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Play..</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Label" x="846" y="201" w="87" h="-1" measuredW="60" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1151%20Votes</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Canvas" x="745" y="235" w="451" h="70" measuredW="100" measuredH="70" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Image" x="750" y="239" w="86" h="59" measuredW="77" measuredH="79" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Video%20Thumb</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::SubTitle" x="841" y="242" w="277" h="-1" measuredW="170" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Video%20%232%20Name</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Button" x="1133" y="257" w="48" h="27" measuredW="50" measuredH="27" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Play..</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Label" x="846" y="271" w="86" h="-1" measuredW="60" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>1151%20Votes</text>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Canvas" x="738" y="153" w="465" h="165" measuredW="100" measuredH="70" zOrder="5" locked="false" isInGroup="-1"/>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::VideoPlayer" x="757" y="242" w="621" h="290" measuredW="300" measuredH="200" zOrder="1" locked="false" isInGroup="-1"/>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::List" x="541" y="242" w="187" h="290" measuredW="100" measuredH="126" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Video%20%231%0AVideo%20%235%0AVideo%20%234%0A...</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::SubTitle" x="547" y="204" w="-1" h="-1" measuredW="150" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Watch%20History</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Link" x="680" y="246" w="-1" h="-1" measuredW="39" measuredH="19" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Delete</text>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Link" x="680" y="266" w="-1" h="-1" measuredW="39" measuredH="19" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Delete</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Link" x="680" y="288" w="-1" h="-1" measuredW="39" measuredH="19" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Delete</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
