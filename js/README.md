@@ -2,7 +2,7 @@
 
 * General
     1. Please wrote a `module` (pattern) in JS?
-    2. What is the definition of: `object`/`instance`, `function` and function's `prototype`?
+    2. What is : `object`/`instance`, `function` and function's `prototype`?
     3. How you can check if something is:
         1. string?
         2. array?
