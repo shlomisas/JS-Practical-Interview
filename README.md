@@ -1,13 +1,20 @@
-# Interviews (practical) questions and code samples..
-### The major point is not to ask puzzles like: you have "you have an array with 100 cells.." but more practical questions like "What is an OOP interface?", "What is the diff between `var` and `let`? (JS)" and so on.. 
+# Practical JS Interview Questions
 
-Here following subjects i'll try to cover:
+## Topics
+        
+* [Basic](code/src/basic.js)
+* [Functions](code/src/functions.js)
+* [Conditions](code/src/conditions.js)
+* [Error Handling](code/src/errors.js)
+* [Events](code/src/events.js)
+* [Promises](code/src/promises.js)
+* [Conditions](code/src/conditions.js)
+* [Performance](code/src/performance.js) 
+* [Timers](code/src/timers.js)
+    
+        
+    
+    
+    
 
-* [JavaScript](js/)
-* PHP (soon)
-* HTML/CSS (soon)
-* Databases (soon)
-* Linux for web (soon)
-
-#### Have new suggestions for more stuff? send me a pull request..
-#### Enjoy!, s.
+    

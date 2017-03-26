@@ -25,12 +25,14 @@ import helper from './utils/helper';
 })();
 
 (()=> {
+
+    // Assume:
+
     setInterval(function(){
-        // Assume helper.fakeAjax goes to some remote resource..
         helper.fakeAjax('/log').then(()=>{
-            helper.log('Log read!');
+            helper.log('Log has received!');
         })
     }, 1000);
 
-    // WHat's the (timing) problem and how to fix that?
+    // What's the (timing) problem and how to fix that?
 })();
