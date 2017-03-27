@@ -57,5 +57,5 @@ import helper from './utils/helper';
 })();
 
 (() => {
-    // Bonus: Wrap `console.log` to check how much times its called but remain its default behaviour
+    // Bonus: Track `console.log` and check how many times it's called
 })();
