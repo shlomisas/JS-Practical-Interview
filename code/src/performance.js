@@ -27,4 +27,21 @@
     // What's the possible leak in this code and how to fix it?
 })();
 
+(function(){
+    const a = {
+        a: 5,
+        foo(){
+            console.log(`a = ${this.a}`);
+        }
+    };
+
+    const elem = $('body');
+    elem.on('event', a.foo.bind(a));
+    elem.off('event', a.foo);
+
+    elem.trigger('event');
+
+    // What's the possible leak in this code and how to fix it?
+})();
+
 
