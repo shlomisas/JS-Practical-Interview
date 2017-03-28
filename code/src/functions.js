@@ -20,9 +20,9 @@ import helper from './utils/helper';
     // Assume:
 
     let a = {
-        a: 5,
-        foo: function () {
-            helper.log('a = ' + this.a);
+        x: 5,
+        foo() {
+            helper.log('x = ' + this.x);
         }
     };
 

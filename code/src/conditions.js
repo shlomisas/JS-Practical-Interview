@@ -15,6 +15,13 @@ import helper from './utils/helper';
     // OR This:
     if (a === 5 && foo()) {}
     // Why?
+})();
+
+((a, foo)=>{
+
+    if('function' !== typeof foo) return;
+
+    // What's looks better way to write your code?
 
     // This:
     if (foo() || a === 5) {}
