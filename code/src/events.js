@@ -11,6 +11,8 @@
     // And:
 
     $('table#t1').on('click', 'tr', () => {});
+
+    // How to remove both events?
 })();
 
 
