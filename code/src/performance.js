@@ -18,13 +18,17 @@
 })();
 
 (function(){
+
     function init() {
         $('#elem').click(() => {});
     }
 
     init();
+    init();
+    init();
+    init();
 
-    // What's the possible leak in this code and how to fix it?
+    // What's the logical problem in this code and how to fix it?
 })();
 
 (function(){

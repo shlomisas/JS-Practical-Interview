@@ -9,7 +9,7 @@ import helper from './utils/helper';
 
     function load(val, cb){
         setTimeout(()=>{
-            if(val === this.val) return cb();
+            if(val === this.val) return cb(null, val);
             cb(new Error('Not equal'));
         }, 1000);
     }
