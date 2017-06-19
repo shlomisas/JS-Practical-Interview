@@ -21,14 +21,17 @@ import helper from './utils/helper';
     // Assume:
 
     function load1(){
+        // `fakeAjax` is a promisified function
         return helper.fakeAjax('/a');
     }
 
     function load2(){
+        // `fakeAjax` is a promisified function
         return helper.fakeAjax('/b');
     }
 
     function load3(){
+        // `fakeAjax` is a promisified function
         return helper.fakeAjax('/c');
     }
 

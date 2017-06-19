@@ -8,7 +8,6 @@
 * [Error Handling](code/src/errors.js)
 * [Events](code/src/events.js)
 * [Promises](code/src/promises.js)
-* [Conditions](code/src/conditions.js)
 * [Performance](code/src/performance.js) 
 * [Timers](code/src/timers.js)
     
