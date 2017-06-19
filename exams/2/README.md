@@ -2,9 +2,6 @@
 
 ## General
 
-The purpose of the exam is to examine your practical coding.  
-As we all know, there are many ways to implement things so choose your own one and do your best..
-
 The task is quite simple, you need to build a small web app with ability to search on YouTube, show the selected results on a (YouTube) player and save it as history into a database. 
     
 ## UI
