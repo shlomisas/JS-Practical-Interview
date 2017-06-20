@@ -17,14 +17,11 @@ The UI include the following flows:
 * When user click `delete` on each history record, it'll delete from the localStorage and will remove form the history list.
 
 ## Principles
-* If you can, please write in ES6, if not ES5 is ok (you'll may do ES6 with us :).
-* You can select any Frameworks you want to use but try to use the most popular and not some indi ones.
+* You can select any Frameworks you want
 * For YouTube operations use the following:  
     * For the search use [this Search API](https://developers.google.com/youtube/v3/docs/search) 
     * For the player use [this iFrame SDK](https://developers.google.com/youtube/iframe_api_reference)
 * Please try express yourself as much you can, try to use your daily basis coding so we can see your level and knowledge
-
-for any questions please ping me on rnd@sizewhiz.com  
 
 Wish you good luck, 
 Shlomi.

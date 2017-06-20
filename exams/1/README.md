@@ -18,15 +18,12 @@ The UI include the following flows:
 
 ## Principles
 * Implement all with JavaScript, for frontend and backend.
-* If you can, please write in ES6, if not ES5 is ok (you'll may do ES6 with us :).
-* On both, frontend and backend, you can select any Frameworks you want to use but try to use the most popular and not some indi ones.
+* On both, frontend and backend, you can select any Frameworks you want to use.
 * For a database, please use Mongo or MySql.
 * For YouTube operations use the following:  
     * For the search use [this Search API](https://developers.google.com/youtube/v3/docs/search) 
     * For the player use [this iFrame SDK](https://developers.google.com/youtube/iframe_api_reference)
 * Please try express yourself as much you can, try to use your daily basis coding so we can see your level and knowledge
-
-for any questions please ping me on rnd@sizewhiz.com  
 
 Wish you good luck, 
 Shlomi.
