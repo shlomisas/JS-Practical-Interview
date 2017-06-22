@@ -25,6 +25,10 @@ The UI include the following flows:
     * For the player use [this iFrame SDK](https://developers.google.com/youtube/iframe_api_reference)
 * Please try express yourself as much you can, try to use your daily basis coding so we can see your level and knowledge
 
+## Task output
+* Inside your exam's project, create a README.md with explanations about how to build and run the project, don't forget global NPM installations if required.
+* Please send back a link to a new github repository or a ZIP file with the project files. 
+
 Wish you good luck, 
 Shlomi.
      

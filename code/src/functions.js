@@ -2,14 +2,12 @@
  * Created by Shlomi on 05/09/2015.
  */
 
-import helper from './utils/helper';
-
 (() => {
     // Assume:
 
     for (var i = 0; i < 5; i++) {
         setTimeout(function () {
-            helper.log(i);
+            console.log(i);
         }, 1000);
     }
 
@@ -22,7 +20,7 @@ import helper from './utils/helper';
     let a = {
         x: 5,
         foo() {
-            helper.log('x = ' + this.x);
+            console.log('x = ' + this.x);
         }
     };
 

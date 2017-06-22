@@ -3,16 +3,12 @@
  */
 
 (function(){
-    items = items || [];
+    items = [];
 
-    function push(item){
-        items.push(item);
-    }
-
-    push('a');
-    push('b');
-    push('c');
-    push('d');
+    items.push('a');
+    items.push('b');
+    items.push('c');
+    items.push('d');
 
     // What's the leak in this code, why?, and how to fix it?
 })();

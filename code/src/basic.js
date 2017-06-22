@@ -13,14 +13,14 @@
 
 (() => {
 
-    var obj = {a: 1, b: 2, c: 3};
+    let obj = {a: 1, b: 2, c: 3};
 
     // How to iterate object `obj`?
 })();
 
 (() => {
 
-    var arr = [1, 2, 3];
+    let arr = [1, 2, 3];
 
     // How to iterate array `arr`?
 })();
