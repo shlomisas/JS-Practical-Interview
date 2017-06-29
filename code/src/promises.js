@@ -14,7 +14,10 @@ import helper from './utils/helper';
         }, 1000);
     }
 
-    // Promisify `load` function
+    load(5, (err, data) => {});
+
+    // Implement `loadP` that promisified `load`
+    loadP().then(data => {}).catch(err => {});
 })();
 
 (()=>{

@@ -15,14 +15,14 @@
 
     let obj = {a: 1, b: 2, c: 3};
 
-    // How to iterate object `obj`?
+    // Loop `obj` and print all of its keys and values?
 })();
 
 (() => {
 
     let arr = [1, 2, 3];
 
-    // How to iterate array `arr`?
+    // Loop `arr` and print all of its values
 })();
 
 
