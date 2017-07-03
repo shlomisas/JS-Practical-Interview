@@ -14,10 +14,13 @@ import helper from './utils/helper';
         }, 1000);
     }
 
+    // Old way..
     load(5, (err, data) => {});
 
+    // Modern way..
+    loadP(5).then(data => {}).catch(err => {});
+
     // Implement `loadP` that promisified `load`
-    loadP().then(data => {}).catch(err => {});
 })();
 
 (()=>{
