@@ -20,7 +20,7 @@
     let a = {
         x: 5,
         foo() {
-            console.log('x = ' + this.x);
+            console.log(`x = ${this.x}`);
         }
     };
 
@@ -54,6 +54,14 @@
     // What will be the output and how to fix that?
 })();
 
-(() => {
-    // Bonus: Track `console.log` and check how many times it's called
-})();
+let counter = 0;
+
+// Bonus: Track `console.log` and check how many times it's called
+
+console.log(1);
+console.log(1);
+console.log(1);
+console.log(1);
+console.log(1);
+
+console.log(counter); // supposed to be 5
