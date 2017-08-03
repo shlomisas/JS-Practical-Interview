@@ -11,7 +11,7 @@ Here is a mockup:
 
 The UI include the following flows:  
 * User search a YouTube's video and get back relevant results for his query.
-* Each search result contain the following fields: video thumbnail, name, num of votes and a play button
+* Each search result contain the following fields: video thumbnail, name and a play button
 * When click play button, the YouTube player underneath start play the video. also, a new `history` record will save into localStorage and will add to the history list on the left.
 * When click on a video form the history list, it'll play in the player. 
 * When user click `delete` on each history record, it'll delete from the localStorage and will remove form the history list.
