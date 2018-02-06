@@ -4,7 +4,7 @@
 
 import helper from './utils/helper';
 
-(()=>{
+(async ()=>{
     // Assume:
 
     function load(val, cb){
@@ -15,10 +15,18 @@ import helper from './utils/helper';
     }
 
     // Old way..
-    load(5, (err, data) => {});
+    load(5, (err, data) => {
+        if(err) return cosnole.log(err);
+        console.log(data);
+    });
 
     // Modern way..
-    loadP(5).then(data => {}).catch(err => {});
+    try{
+        const data = await loadP(5);
+        console.log(data);
+    }catch(e){
+        console.log(e);
+    })
 
     // Implement `loadP` that promisified `load`
 })();
