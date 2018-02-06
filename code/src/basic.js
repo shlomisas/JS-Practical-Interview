@@ -2,13 +2,10 @@
  * Created by Shlomi on 04/09/2015.
  */
 
-(a => {
-
-    // When to use this:
-    if(typeof a === 'undefined'){}
-
-    // And when this:
-    if(a === undefined){}
+(() => {
+    // What will happen with this code?
+    console.log(typeof a);
+    console.log(a);
 })();
 
 (() => {
