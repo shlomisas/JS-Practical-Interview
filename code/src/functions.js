@@ -8,7 +8,7 @@
     for (var i = 0; i < 5; i++) {
         setTimeout(function () {
             console.log(i);
-        }, 1000);
+        });
     }
 
     // What will be the output and how to fix that?
@@ -54,14 +54,14 @@
     // What will be the output and how to fix that?
 })();
 
-let counter = 0;
+(() => {
+    let counter = 0;
 
-// Bonus: Track `console.log` and check how many times it's called
+    console.log(1);
+    console.log(1);
+    console.log(1);
+    console.log(1);
+    console.log(1);
 
-console.log(1);
-console.log(1);
-console.log(1);
-console.log(1);
-console.log(1);
-
-console.log(counter); // supposed to be 5
+    console.log(counter); // supposed to be 5
+})();
