@@ -2,11 +2,25 @@
  * Created by Shlomi on 05/09/2015.
  */
 
-(()=> {
-    try{
+(async ()=> {
+
+    function foo(){}
+    function boo(){}
+    function moo(){}
+
+    function zoo(){
         setTimeout(()=>{
             JSON.parse('bla bla bla');
-        })
+        });
+    }
+
+    try{
+
+        foo();
+        boo();
+        moo();
+
+        zoo();
     }catch(e){
         console.error(e);
     }
