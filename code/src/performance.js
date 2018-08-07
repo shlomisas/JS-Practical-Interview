@@ -29,9 +29,9 @@
 
 (function(){
     const a = {
-        a: 5,
+        x: 5,
         foo(){
-            console.log(`a = ${this.a}`);
+            console.log(`x = ${this.x}`);
         }
     };
 
@@ -41,7 +41,7 @@
 
     elem.trigger('event');
 
-    // What's the possible leak in this code and how to fix it?
+    // What's the possible memory leak in this code and how to fix it?
 })();
 
 
