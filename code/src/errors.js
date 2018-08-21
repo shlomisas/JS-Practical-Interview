@@ -4,7 +4,7 @@
 
 (async() => {
 
-    // What's the problem with this code?
+    // How i can catch the Error inside the setTimeout?
 
     try {
 
