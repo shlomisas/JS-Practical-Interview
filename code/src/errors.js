@@ -4,21 +4,16 @@
 
 (async() => {
 
-    // How i can catch the Error inside the setTimeout?
+    // What's the problem and how to fix it?
 
     try {
-
         new Promise((resolve, reject) => {
-
-            setTimeout(() => {
-                reject(new Error('something went wrong..'));
-            }, 0);
-
+            reject(new Error('something went wrong..'));
         });
-
     } catch (e) {
         console.error(e);
     }
+
 })();
 
 (async ()=> {
