@@ -8,7 +8,7 @@
     for (var i = 0; i < 5; i++) {
         setTimeout(function () {
             console.log(i);
-        });
+        }, 1000);
     }
 
     // What will be the output and how to fix that?
