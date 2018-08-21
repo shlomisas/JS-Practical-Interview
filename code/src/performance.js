@@ -41,7 +41,7 @@
 
     elem.trigger('event');
 
-    // What's the possible memory leak in this code and how to fix it?
+    // Is the event will trigger or not? if yes, why?
 })();
 
 
