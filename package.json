@@ -1,0 +1,17 @@
+{
+  "name": "shlomisas-interviews",
+  "version": "0.0.1",
+  "description": "* [Basic](code/src/basic.js)\r * [Functions](code/src/functions.js)\r * [Conditions](code/src/conditions.js)\r * [Error Handling](code/src/errors.js)\r * [Events](code/src/events.js)\r * [Promises](code/src/promises.js)\r * [Performance](code/src/performance.js) \r * [Timers](code/src/timers.js)",
+  "main": "index.js",
+  "scripts": {
+    "test": "ehco 'tbd'",
+      "pushAll": "git add . && git commit -m \"fixes\" && git push && git push github"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/shlomisas/interviews.git"
+  },
+  "author": "Shlomi Sasson <shlomi@sasson.me>",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/shlomisas/interviews#readme"
+}

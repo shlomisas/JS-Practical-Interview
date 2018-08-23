@@ -57,11 +57,16 @@
 (() => {
     let counter = 0;
 
-    console.log(1);
-    console.log(1);
-    console.log(1);
-    console.log(1);
-    console.log(1);
+    (() => {
+        console.log(1);
+        console.log(1);
+    })();
 
-    console.log(counter); // supposed to be 5
+    (() => {
+        console.log(1);
+        console.log(1);
+        console.log(1);
+    })();
+
+    console.log(counter); // proxy console.log to `counter` will be 5
 })();
