@@ -1,8 +1,11 @@
 # Practical JS Interview Questions
 
-During the time i'm aggregating more and more daily-basis questions for web-development interviews.
-It's mostly practical stuff i'm facing with during designing and developing systems and i found out 
-that people covered it, are fits my needs :) 
+During the time I'm aggregating more and more daily-basis practices that can fit for a web-development interview. 
+It mostly practical things that I'm facing with during my planning and coding tasks. 
+
+I found out that a candidate covers it is a practical person who and can deliver a high-quality product. 
+
+Feel free to ask questions and suggest more stuff! (PR's are more than welcome)
 
 ## Low level coding stuff
         
