@@ -11,7 +11,11 @@
         }, 1000);
     }
 
-    // What will be the output and how to fix that?
+    /**
+     * The task:
+     * 1. What will be the output?
+     * 2. How to fix that?
+     */
 })();
 
 (() => {
@@ -26,47 +30,33 @@
 
     setTimeout(a.foo, 1000);
 
-    // What will be the output and how to fix that?
-})();
-
-(() => {
-    // Assume:
-
-    let a = {
-        counter: 0,
-        foo(flag){
-
-            this.counter++;
-
-            if (flag) {
-                this.foo();
-            }
-            console.log(this.counter);
-        }
-    };
-
-    a.foo();
-    a.foo();
-    a.foo(true);
-    a.foo();
-    a.foo();
-
-    // What will be the output and how to fix that?
+    /**
+     * The task:
+     * 1. What will be the output?
+     * 2. How to fix that?
+     */
 })();
 
 (() => {
     let counter = 0;
 
-    (() => {
+    function a() {
         console.log(1);
         console.log(1);
-    })();
+    }
 
-    (() => {
+    function b() {
         console.log(1);
         console.log(1);
         console.log(1);
-    })();
+    }
 
-    console.log(counter); // proxy console.log to `counter` will be 5
+    a();
+    b();
+
+    console.log(counter);
+
+    /**
+     * The task: after running this code, `counter` should be 5
+     */
 })();

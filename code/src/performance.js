@@ -3,45 +3,51 @@
  */
 
 (function(){
-    items = [];
 
-    items.push('a');
-    items.push('b');
-    items.push('c');
-    items.push('d');
+    const EventEmitter = require('events');
 
-    // What's the leak in this code, why?, and how to fix it?
-})();
-
-(function(){
+    class A extends EventEmitter{}
+    const a = new A();
 
     function init() {
-        $('#elem').click(() => {});
+        a.on('something', () => {});
     }
 
     init();
     init();
     init();
     init();
+    // ...
+    init();
 
-    // What's the logical problem in this code and how to fix it?
+    /**
+     * The task:
+     * 1. What's the logical problem?
+     * 2. How to fix that?
+     */
 })();
 
 (function(){
-    const a = {
-        x: 5,
-        foo(){
-            console.log(`x = ${this.x}`);
-        }
-    };
 
-    const elem = $('body');
-    elem.on('event', a.foo.bind(a));
-    elem.off('event', a.foo);
+    const EventEmitter = require('events');
 
-    elem.trigger('event');
+    class A extends EventEmitter{}
 
-    // Is the event will trigger or not? if yes, why?
+    function foo(){
+        console.log('hi!');
+    }
+
+    const a = new A();
+
+    a.on('event', foo.bind(a));
+    a.off('event', foo);
+    a.emit('event');
+
+    /**
+     * The task:
+     * 1. Will the event be triggered?
+     * 2. Why?
+     */
 })();
 
 
