@@ -4,7 +4,7 @@
 
 ((a, foo)=>{
 
-    if('function' !== typeof foo) return;
+    if(typeof foo !== 'function') return;
 
     /**
      * The task: the condition has the same logic, what's looks better way to write your code?
@@ -21,7 +21,7 @@
 
 ((a, foo)=>{
 
-    if('function' !== typeof foo) return;
+    if(typeof foo !== 'function') return;
 
     /**
      * The task: the condition has the same logic, what's looks better way to write your code?
