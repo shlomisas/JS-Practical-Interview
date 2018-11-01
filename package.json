@@ -1,6 +1,6 @@
 {
   "name": "shlomisas-interviews",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "* [Basic](code/src/basic.js)\r * [Functions](code/src/functions.js)\r * [Conditions](code/src/conditions.js)\r * [Error Handling](code/src/errors.js)\r * [Events](code/src/events.js)\r * [Promises](code/src/promises.js)\r * [Performance](code/src/performance.js) \r * [Timers](code/src/timers.js)",
   "main": "index.js",
   "scripts": {
