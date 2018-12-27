@@ -17,11 +17,16 @@
 (() => {
 
     /**
-     * The task: how you looping `obj` and `arr` to access the keys/indices and values?
+     * The task: how you looping `arr` to access the indices and values?
+     */
+
+    let arr = [1, 2, 3];
+
+    /**
+     * The task: how you looping `obj` to access the key and values?
      */
 
     let obj = {a: 1, b: 2, c: 3};
-    let arr = [1, 2, 3];
 })();
 
 
