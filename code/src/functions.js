@@ -41,14 +41,14 @@
     let counter = 0;
 
     function a() {
-        console.log(1);
-        console.log(1);
+        console.log('a');
+        console.log('b');
     }
 
     function b() {
-        console.log(1);
-        console.log(1);
-        console.log(1);
+        console.log('c');
+        console.log('d');
+        console.log('e');
     }
 
     a();
