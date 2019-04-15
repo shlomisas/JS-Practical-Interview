@@ -40,19 +40,11 @@
 (() => {
     let counter = 0;
 
-    function a() {
-        console.log('a');
-        console.log('b');
-    }
-
-    function b() {
-        console.log('c');
-        console.log('d');
-        console.log('e');
-    }
-
-    a();
-    b();
+    console.log('a');
+    console.log('b');
+    console.log('c');
+    console.log('d');
+    console.log('e');
 
     console.log(counter);
 
