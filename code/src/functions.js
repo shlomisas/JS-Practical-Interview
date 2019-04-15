@@ -49,6 +49,7 @@
     console.log(counter);
 
     /**
+     *
      * The task: after running this code, `counter` should be 5
      */
 })();
