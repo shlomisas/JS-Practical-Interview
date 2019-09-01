@@ -7,8 +7,12 @@
 
     function load(val, cb){
         setTimeout(()=>{
-            if(val === this.val) return cb(null, val);
-            cb(new Error('Not equal'));
+            // Randomly throw an error
+            if(Math.random() >= 0.5) {
+                return cb(new Error(`${val} is wrong..`));
+            }
+
+            return cb(`${val} is sababa..`);
         }, 1000);
     }
 

@@ -21,7 +21,7 @@
 (() => {
     // Assume:
 
-    let a = {
+    const a = {
         x: 5,
         foo() {
             console.log(`x = ${this.x}`);
