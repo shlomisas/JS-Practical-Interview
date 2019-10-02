@@ -54,7 +54,7 @@
     /**
      * The task:
      * 1. Call `fakeAjax` 3 times in parallel
-     * 2. Call `fakeAjax` 3 times in serial
+     * 2. Call `fakeAjax` 3 times in sequence
      * 3. Catch errors but only for failed executions
      */
 })();
