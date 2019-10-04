@@ -12,7 +12,7 @@
                 return cb(new Error(`${val} is wrong..`));
             }
 
-            return cb(`${val} is sababa..`);
+            return cb(undefined, `${val} is sababa..`);
         }, 1000);
     }
 
