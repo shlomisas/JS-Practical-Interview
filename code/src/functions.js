@@ -8,7 +8,7 @@
     for (var i = 0; i < 5; i++) {
         setTimeout(function () {
             console.log(i);
-        }, 1000);
+        });
     }
 
     /**
@@ -49,6 +49,6 @@
     console.log(counter);
 
     /**
-     * The task: after running this code, `counter` should be 5
+     * The task: increase `counter` every time `consooe.log` invoke, in this example `counter` should be 5
      */
 })();
