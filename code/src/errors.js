@@ -10,11 +10,11 @@
      * 2. How to fix that?
      */
 
-    function foo(){}
-    function boo(){}
-    function moo(){}
+    const foo = () => {};
+    const boo = () => {};
+    const moo = () => {};
 
-    function zoo(){
+    const zoo = () => {
         setTimeout(()=>{
             JSON.parse('bla bla bla');
         });
