@@ -14,7 +14,7 @@
     const boo = () => {};
     const moo = () => {};
 
-    const zoo = () => {
+    const zoo = async () => {
         setTimeout(()=>{
             JSON.parse('bla bla bla');
         });
@@ -26,7 +26,7 @@
         boo();
         moo();
 
-        zoo();
+        await zoo();
     }catch(e){
         console.error(e);
     }
