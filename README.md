@@ -18,6 +18,7 @@ Feel free to ask questions and suggest more! (PR's are more than welcome)
 ## Verbal Questions
 
 * [Frontend](theory/frontend.md)
+* [Backend](theory/backend.md)
 * [React](theory/react.md)
 * [Vanilla](theory/vanilla.md)
 
