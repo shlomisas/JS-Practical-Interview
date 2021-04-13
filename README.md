@@ -5,7 +5,7 @@ It is mostly practical things i'm doing during my planning and coding tasks.
 
 Feel free to ask questions and suggest more! (PR's are more than welcome)
 
-## Low level coding stuff
+## Coding
         
 * [Basic](code/src/basic.js)
 * [Functions](code/src/functions.js)
@@ -14,14 +14,14 @@ Feel free to ask questions and suggest more! (PR's are more than welcome)
 * [Async coding](code/src/async.js)
 * [Performance](code/src/performance.js)
 
-## Theoretical stuff
+## Discussions
 
 * [Frontend](theory/frontend.md)
 * [React](theory/react.md)
 * [Vanilla](theory/vanilla.md)
 * [Architecture](exams/architecture/README.MD)
 
-## Home tasks
+## Tasks
 
 * [Frontend](exams/frontend/README.md)
 * [Fullstack](exams/fullstack/README.md)
