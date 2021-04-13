@@ -16,6 +16,9 @@ Feel free to ask questions and suggest more! (PR's are more than welcome)
 
 ## Theoretical stuff
 
+* [Frontend](theory/frontend.md)
+* [React](theory/react.md)
+* [Vanilla](theory/vanilla.md)
 * [Architecture](exams/architecture/README.MD)
 
 ## Home tasks
