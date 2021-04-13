@@ -1,7 +1,7 @@
 # Practical Interview Questions
 
-During the time I'm facing with more and more daily-basis concerns that can be asked in a web-development interview. 
-It is mostly practical things i'm doing during my planning and coding tasks.
+During the time I'm facing with more and more daily-basis practices that can be asked during an interview. 
+It is mostly practical things, performance considations, architecture designs and other practical things
 
 Feel free to ask questions and suggest more! (PR's are more than welcome)
 
