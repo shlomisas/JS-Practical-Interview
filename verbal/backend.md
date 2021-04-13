@@ -12,7 +12,7 @@
 ## Queues and messages-brokers
 
 * How a queue works in general? explain the mechanism
-* What's the diff between product/publish and consume/subscribe?
+* What's the diff between produce/consume and publish/subscribe?
 * How to have multi consumers?
 
 ## NodeJS
