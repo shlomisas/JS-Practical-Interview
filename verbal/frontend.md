@@ -21,9 +21,9 @@
 
 * The website loading too slow, what things will you check?
 * Resources take too long to load, how to make it faster?
-  ** Images
-  ** Videos
-  ** JS/CSS files
+  * Images
+  * Videos
+  * JS/CSS files
 * How to load the screen as fast as possible?
 * Sometimes the browser freeze, and maybe even shows the fancy ["wait" message](assets/browserWait.png), what can cause it? 
 * I'm using localStorage to cache things but at some point it becomes full, what are my alternatives?
