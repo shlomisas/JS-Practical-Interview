@@ -1,6 +1,6 @@
 # Backend general questions 
 
-* Make makes a backend stateless?
+* What makes a backend stateless?
 * How to predict your scaling metrics?
 * How to investigate backend performance issue?
   * Slow responses
