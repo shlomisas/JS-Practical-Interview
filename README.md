@@ -13,15 +13,20 @@ Feel free to ask questions and suggest more! (PR's are more than welcome)
 * [Error Handling](code/src/errors.js)
 * [Async coding](code/src/async.js)
 * [Performance](code/src/performance.js)
+* [Challenges](code/src/challenges.js)
 
-## Discussions
+## Verbal Questions
 
 * [Frontend](theory/frontend.md)
 * [React](theory/react.md)
 * [Vanilla](theory/vanilla.md)
-* [Architecture](exams/architecture/README.MD)
 
-## Tasks
+## Architecture Discussions
+
+* [Realtime Music Player](architecture/realtimeMusicPlayer.md)
+* [Micro-frontend skeleton](architecture/microFrontendSkeleton.md)
+
+## Home Tasks
 
 * [Frontend](exams/frontend/README.md)
 * [Fullstack](exams/fullstack/README.md)

@@ -1,7 +1,3 @@
-/**
- * Created by Shlomi on 05/09/2015.
- */
-
 (() => {
     // Assume:
 
@@ -38,17 +34,23 @@
 })();
 
 (() => {
+    // Assume:
+
+    const foo = (a) => {
+        console.log(a);
+    };
+
     let counter = 0;
 
-    console.log('a');
-    console.log('b');
-    console.log('c');
-    console.log('d');
-    console.log('e');
+    foo('a');
+    foo('b');
+    foo('c');
+    foo('d');
+    foo('e');
 
-    console.log(counter);
+    console.log(counter); // expect counter to be 5
 
     /**
-     * The task: increase `counter` every time `consooe.log` invoke, in this example `counter` should be 5
+     * The task: increase `counter` every time `console.log` invokes, in this example `counter` should be 5
      */
 })();

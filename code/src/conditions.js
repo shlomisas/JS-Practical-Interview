@@ -1,13 +1,9 @@
-/**
- * Created by Shlomi on 04/09/2015.
- */
-
 ((a, foo)=>{
 
     if(typeof foo !== 'function') return;
 
     /**
-     * The task: the condition has the same logic, what's looks better way to write your code?
+     * The task: the condition has the same logic, but which one is more efficient?
      */
 
     // This:
