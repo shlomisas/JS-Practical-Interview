@@ -10,17 +10,16 @@ Feel free to ask questions and suggest more! (PR's are more than welcome)
 * [Basic](code/src/basic.js)
 * [Functions](code/src/functions.js)
 * [Conditions](code/src/conditions.js)
-* [Error Handling](code/src/errors.js)
 * [Async coding](code/src/async.js)
 * [Performance](code/src/performance.js)
 * [Challenges](code/src/challenges.js)
 
 ## Verbal Questions
 
-* [Frontend](theory/frontend.md)
-* [Backend](theory/backend.md)
-* [React](theory/react.md)
-* [Vanilla](theory/vanilla.md)
+* [Frontend](verbal/frontend.md)
+* [Backend](verbal/backend.md)
+* [React](verbal/react.md)
+* [Vanilla](verbal/vanilla.md)
 
 ## Architecture Discussions
 
