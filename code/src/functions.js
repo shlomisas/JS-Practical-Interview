@@ -1,7 +1,3 @@
-/**
- * Created by Shlomi on 05/09/2015.
- */
-
 (() => {
     // Assume:
 
@@ -38,17 +34,18 @@
 })();
 
 (() => {
+    // Assume:
+
     let counter = 0;
 
-    console.log('a');
-    console.log('b');
-    console.log('c');
-    console.log('d');
-    console.log('e');
+    Math.round(2.33);
+    Math.round(4/5);
+    Math.round(3*2.4);
+    Math.round(6.387);
 
-    console.log(counter);
+    console.log(counter); // expect counter to be 5
 
     /**
-     * The task: increase `counter` every time `consooe.log` invoke, in this example `counter` should be 5
+     * The task: increase `counter` every time `Math.round` invokes, in this example `counter` should be 5
      */
 })();
