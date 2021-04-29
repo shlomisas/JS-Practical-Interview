@@ -33,18 +33,13 @@
 
 (async ()=>{
 
-    const fakeAjax = (path) => {
-        return new Promise((resolve, reject) => {
-            setTimeout(() => {
+    const fakeAjax = async (path) => {
+        // Randomly throw an error
+        if(Math.random() >= 0.5) {
+            throw new Error(`${path} went wrong..`);
+        }
 
-                // Randomly throw an error
-                if(Math.random() >= 0.5) {
-                    return reject(new Error(`${path} went wrong..`));
-                }
-
-                return resolve(`${path} went sababa..`);
-            });
-        });
+        return `${path} went sababa..`;
     }
 
     /**
