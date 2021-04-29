@@ -43,9 +43,9 @@
     Math.round(3*2.4);
     Math.round(6.387);
 
-    console.log(counter); // expect counter to be 5
+    console.log(counter); // expect counter to be 4
 
     /**
-     * The task: increase `counter` every time `Math.round` invokes, in this example `counter` should be 5
+     * The task: increase `counter` every time `Math.round` invokes, in this example `counter` should be 4
      */
 })();
