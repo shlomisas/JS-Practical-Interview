@@ -8,9 +8,8 @@
     }
 
     /**
-     * The task:
-     * 1. What will be the output?
-     * 2. How to fix that?
+     * The task: the output will 5 times 5
+     * How to fix that?
      */
 })();
 
