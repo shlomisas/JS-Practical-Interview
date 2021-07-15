@@ -27,16 +27,18 @@
 
     const EventEmitter = require('events');
 
-    class A extends EventEmitter{}
-
-    function foo(){
-        console.log('hi!');
+    class A extends EventEmitter{
+      x = 5;
+      foo(){
+        console.log(`x = ${this.x}`);
+      }
     }
 
     const a = new A();
 
-    a.on('event', foo.bind(a));
-    a.off('event', foo);
+    a.on('event', a.foo.bind(a));
+    a.off('event', a.foo);
+  
     a.emit('event');
 
     /**
