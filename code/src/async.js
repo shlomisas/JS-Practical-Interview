@@ -14,7 +14,7 @@
 
     // Old way..
     load(5, (err, data) => {
-        if(err) return cosnole.log(err);
+        if(err) return console.log(err);
         console.log(data);
     });
 
