@@ -33,26 +33,26 @@
 })();
 
 (() => {
-  // Assume:
-  let counter = 0;
+    // Assume:
+    let counter = 0;
 
-  
-  // File: a.js
-  (() => {
-      Math.round(2.33);
-      Math.round(4/5);
-  })();
 
-  // File: b.js
-  (() => {
-      Math.round(3*2.4);
-      Math.round(6.387);
-  })();
+    // File: a.js
+    (() => {
+        Math.round(2.33);
+        Math.round(4 / 5);
+    })();
 
-  // expect counter to be 4
-  console.log(counter);
+    // File: b.js
+    (() => {
+        Math.round(3 * 2.4);
+        Math.round(6.387);
+    })();
 
-  /**
-   * The task: increase `counter` every time `Math.round` invokes, in this example `counter` should be 4
-   */
+    // expect counter to be 4
+    console.log(counter);
+
+    /**
+     * The task: increase `counter` every time `Math.round` invokes, in this example `counter` should be 4
+     */
 })();
