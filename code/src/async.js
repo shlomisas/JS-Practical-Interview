@@ -55,7 +55,7 @@
     const EventEmitter = require('events');
 
     class A extends EventEmitter{
-        async run(){
+        run(){
             setImmediate(() => {
                 this.emit('something');
             });
@@ -76,7 +76,7 @@
             throw new Error('something went wrong..');
         });
 
-        await a.run();
+        a.run();
 
     } catch (e) {
         console.error(e);
