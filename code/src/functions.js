@@ -8,7 +8,7 @@
     }
 
     /**
-     * The task: the output will 5 times 5
+     * The task: the output will be 5 times 5
      * How to fix that?
      */
 })();
@@ -26,9 +26,8 @@
     setTimeout(a.foo, 1000);
 
     /**
-     * The task:
-     * 1. What will be the output?
-     * 2. How to fix that?
+     * The task: the output will be `x = undefined`
+     * How to fix that?
      */
 })();
 
