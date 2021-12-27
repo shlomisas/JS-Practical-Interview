@@ -74,8 +74,7 @@
     });
 
     /**
-     * The task: make a common logic for event listeners,
-     *          log `[event.timestamp]: ${event.type}`
+     * The task: make a common logic for event listeners to log `[event.timestamp]: ${event.type}`
      */
 })({
     on(){}
