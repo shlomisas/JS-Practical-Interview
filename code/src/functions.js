@@ -55,3 +55,28 @@
      * The task: increase `counter` every time `Math.round` invokes, in this example `counter` should be 4
      */
 })();
+
+((socket) => {
+    // Assume:
+
+    socket.on('task:add', () => {
+        console.log(`adding new task`);
+    });
+
+    socket.on('task:update', (event) => {
+        const { id } = event?.data;
+        console.log(`update task ${id}`);
+    });
+
+    socket.on('task:remove', (event) => {
+        const { id } = event?.data;
+        console.log(`removing task ${id}`);
+    });
+
+    /**
+     * The task: make a common logic for event listeners,
+     *          log `[event.timestamp]: ${event.type}`
+     */
+})({
+    on(){}
+});
