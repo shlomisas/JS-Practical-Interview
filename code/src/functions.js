@@ -35,7 +35,6 @@
     // Assume:
     let counter = 0;
 
-
     // File: a.js
     (() => {
         Math.round(2.33);
@@ -56,26 +55,28 @@
      */
 })();
 
-((socket) => {
-    // Assume:
+((obj) => {
 
-    socket.on('task:add', () => {
+    // Assume:
+    obj.on('task:add', () => {
         console.log(`adding new task`);
     });
 
-    socket.on('task:update', (event) => {
+    obj.on('task:update', (event) => {
         const { id } = event?.data;
         console.log(`update task ${id}`);
     });
 
-    socket.on('task:remove', (event) => {
+    obj.on('task:remove', (event) => {
         const { id } = event?.data;
         console.log(`removing task ${id}`);
     });
 
     /**
-     * The task: make a common logic for event listeners to log `[event.timestamp]: ${event.type}`
+     * The task: make a common logic for event listeners to log `[${event.timestamp}]: ${event.type}`
      */
-})({
-    on(){}
-});
+
+    obj.emit('task:add');
+    obj.emit('task:update', { data: { id: 5 } });
+    obj.emit('task:remove', { data: { id: 5 } });
+})(new (require('events'))());
