@@ -1,86 +1,72 @@
-(async ()=>{
-    // Assume:
+(async() => {
+    try {
 
-    function load(val, cb){
-        setTimeout(()=>{
-            // Randomly throw an error
-            if(Math.random() >= 0.5) {
-                return cb(new Error(`${val} is wrong..`));
-            }
-
-            return cb(undefined, `${val} is sababa..`);
+        // Native usage:
+        setTimeout(() => {
+            console.log('done!');
         }, 1000);
-    }
 
-    // Old way..
-    load(5, (err, data) => {
-        if(err) return console.log(err);
-        console.log(data);
-    });
-
-    // Modern way..
-    try{
-        const data = await loadP(5);
-        console.log(data);
-    }catch(e){
-        console.log(e);
+        // Make this code works!
+        await setTimeoutP(1000);
+        console.log('done!');
+    } catch(e) {
+        console.error(e);
     }
 
     /**
-     * The task: implement `loadP` that promisified `load`
+     * The task:
+     * 1. Implement setTimeoutP
+     * 3. Bonus: setTimeout getting args from its third argument, support it as well
      */
+
 })();
 
 (async ()=>{
 
-    const fakeAjax = async (path) => {
+    const request = async (path) => {
         // Randomly throw an error
         if(Math.random() >= 0.5) {
             throw new Error(`${path} went wrong..`);
         }
 
         return `${path} went sababa..`;
-    }
+    };
+
+    const paths = [
+        '/do?a=5&b=6',
+        '/do?a=7&b=8',
+        '/do?a=5&b=6'
+    ];
 
     /**
      * The task:
-     * 1. Call `fakeAjax` N times in sequence
-     * 2. Call `fakeAjax` N times in parallel
-     * 3. Catch errors but only for failed executions
+     * 1. Loop thru `paths` and call `request` in sequence (one after one)
+     * 2. Loop thru `paths` and call `request` in parallel
      */
 })();
 
-(async() => {
+(async ()=>{
 
-    const EventEmitter = require('events');
-
-    class A extends EventEmitter{
-        run(){
-            setImmediate(() => {
-                this.emit('something');
-            });
+    const request = async (path) => {
+        // Randomly throw an error
+        if(Math.random() >= 0.5) {
+            throw new Error(`${path} went wrong..`);
         }
-    }
+
+        return `${path} went sababa..`;
+    };
+
+    const paths = [
+        '/do?a=5&b=6',
+        '/do?a=7&b=8',
+        '/do?a=5&b=6'
+    ];
 
     /**
      * The task:
-     * 1. What's the problem?
-     * 2. How to fix that?
+     * 1. Loop thru `paths` and call `request` in parallel
+     * 2. Make sure the 3rd path invocation isn't really call the server but uses the 1st path's response
+     * 3. Bonus: In case of 1st path response was an error, the third should request the server
      */
-
-    try {
-
-        const a = new A();
-
-        a.on('something', () => {
-            throw new Error('something went wrong..');
-        });
-
-        a.run();
-
-    } catch (e) {
-        console.error(e);
-    }
-
 })();
 

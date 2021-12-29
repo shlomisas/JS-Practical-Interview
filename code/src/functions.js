@@ -35,7 +35,6 @@
     // Assume:
     let counter = 0;
 
-
     // File: a.js
     (() => {
         Math.round(2.33);
@@ -55,3 +54,29 @@
      * The task: increase `counter` every time `Math.round` invokes, in this example `counter` should be 4
      */
 })();
+
+((obj) => {
+
+    // Assume:
+    obj.on('task:add', () => {
+        console.log(`adding new task`);
+    });
+
+    obj.on('task:update', (event) => {
+        const { id } = event?.data;
+        console.log(`update task ${id}`);
+    });
+
+    obj.on('task:remove', (event) => {
+        const { id } = event?.data;
+        console.log(`removing task ${id}`);
+    });
+
+    /**
+     * The task: make a common logic for event listeners to log `[${event.timestamp}]: ${event.type}`
+     */
+
+    obj.emit('task:add');
+    obj.emit('task:update', { data: { id: 5 } });
+    obj.emit('task:remove', { data: { id: 5 } });
+})(new (require('events'))());
