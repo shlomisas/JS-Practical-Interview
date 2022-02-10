@@ -73,7 +73,7 @@
     });
 
     /**
-     * The task: make a common logic for event listeners to log `[${event.timestamp}]: ${event.type}`
+     * The task: make a common logic so every time an event is recevied log `[${timestamp}]: ${event.type}`
      */
 
     obj.emit('task:add');
