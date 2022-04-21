@@ -63,9 +63,7 @@
     ];
 
     /**
-     * The task:
-     * 1. Loop thru `paths` and call `request` in parallel
-     * 2. Make sure the 3rd path invocation isn't really call the server but uses the 1st path's response
+     * The task: Loop thru `paths` and call `request` in parallel
      */
 })();
 
