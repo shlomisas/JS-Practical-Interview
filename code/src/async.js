@@ -63,7 +63,9 @@
     ];
 
     /**
-     * The task: Call `request` for every path in parallel and avoid duplicate requests of the same path
+     * The task: 
+     * 1. Loop thru `paths` and call `request` in parallel 
+     * 2. Avoid duplicate requests of the same path but keep the parallel responses number the same (3 in this example)
      */
 })();
 
