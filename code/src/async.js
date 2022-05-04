@@ -63,7 +63,7 @@
     ];
 
     /**
-     * The task: Avoid duplicate requests of the same path
+     * The task: Call `request` for every path in parallel and avoid duplicate requests of the same path
      */
 })();
 
