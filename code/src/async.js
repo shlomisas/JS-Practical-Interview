@@ -6,7 +6,7 @@
             console.log('done!');
         }, 1000);
 
-        // Make this code works!
+        // Desired usage (promisified version):
         await setTimeoutP(1000);
         console.log('done!');
     } catch(e) {
