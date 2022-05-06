@@ -14,9 +14,7 @@
     }
 
     /**
-     * The task:
-     * 1. Implement setTimeoutP
-     * 3. Bonus: setTimeout getting args from its third argument, support it as well
+     * The task: Implement setTimeoutP
      */
 
 })();
