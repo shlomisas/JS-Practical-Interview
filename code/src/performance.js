@@ -87,5 +87,20 @@
      */
 })();
 
+(async () => {
+
+    const models = await Model.find({ status: 'active '});
+
+    for (const model of models) {
+        await model.update({ status: 'inactive' });
+    }
+
+    /**
+     * The task:
+     * 1. What's the scaling problem?
+     * 2. How to fix that?
+     */
+})();
+
 
 
