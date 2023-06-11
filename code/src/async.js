@@ -40,17 +40,13 @@
      * The task:
      * 1. Loop thru `paths` and call `request` in sequence (one after one)
      * 2. Loop thru `paths` and call `request` in parallel
+     * 3. catch errors on each
      */
 })();
 
 (async ()=>{
 
     const request = async (path) => {
-        // Randomly throw an error
-        if(Math.random() >= 0.5) {
-            throw new Error(`${path} went wrong..`);
-        }
-
         return `${path} went sababa..`;
     };
 
