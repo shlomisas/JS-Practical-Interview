@@ -63,7 +63,7 @@
     /**
      * The task: 
      * 1. Loop thru `paths` and call `request` in parallel 
-     * 2. Avoid duplicate requests of the same path but keep the parallel responses number the same (3 in this example)
+     * 2. Avoid duplicate requests of the same path but keep the responses' number the same (3 in this example)
      */
 })();
 
