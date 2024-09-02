@@ -22,18 +22,20 @@
 (async ()=>{
 
     const request = async (path) => {
+        console.log(`request function called with ${path}!`);
+
         // Randomly throw an error
         if(Math.random() >= 0.5) {
             throw new Error(`${path} went wrong..`);
         }
 
-        return `${path} went sababa..`;
+        return `${path} has been requested..`;
     };
 
     const paths = [
-        '/do?a=5&b=6',
-        '/do?a=7&b=8',
-        '/do?a=5&b=6'
+        '/user/5',
+        '/user/7',
+        '/user/5'
     ];
 
     /**
@@ -47,19 +49,20 @@
 (async ()=>{
 
     const request = async (path) => {
-        return `${path} went sababa..`;
+        console.log(`request function called with ${path}!`);
+        return `${path} has been requested..`;
     };
 
     const paths = [
-        '/do?a=5&b=6',
-        '/do?a=7&b=8',
-        '/do?a=5&b=6'
+        '/user/5',
+        '/user/7',
+        '/user/5'
     ];
 
     /**
      * The task: 
      * 1. Loop thru `paths` and call `request` in parallel 
-     * 2. Avoid duplicate requests of the same path but keep the responses' number the same (3 in this example)
+     * 2. Avoid performing duplicate requests of the same path but keep the responses' number the same (3 in this example)
      */
 })();
 
