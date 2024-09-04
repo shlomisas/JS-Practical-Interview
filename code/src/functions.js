@@ -77,3 +77,19 @@
     obj.emit('task:update', { data: { id: 5 } });
     obj.emit('task:remove', { data: { id: 5 } });
 })(new (require('events'))());
+
+(async () => {
+
+    /**
+     *  The task: Enhance localStorage to support TTL
+      */
+
+    // When doing:
+    localStorage.setItem('key', 'value', 1000);
+
+    // After 1+ second
+    await new Promise((resolve) => setTimeout(resolve, 1001));
+
+    // Expected output: null
+    console.log(localStorage.getItem('key'));
+})();
