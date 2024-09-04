@@ -32,8 +32,8 @@
 })();
 
 (() => {
+
     // Assume:
-    let counter = 0;
 
     // File: a.js
     (() => {
@@ -47,11 +47,8 @@
         Math.round(6.387);
     })();
 
-    // expect counter to be 4
-    console.log(counter);
-
     /**
-     * The task: increase `counter` every time `Math.round` invokes, in this example `counter` should be 4
+     * The task: every time Math.round has been called, log whether the rounded number is even or odd in a single place
      */
 })();
 
@@ -73,7 +70,7 @@
     });
 
     /**
-     * The task: make a common logic so every time an event is recevied log `[${Date.now()}]: ${eventName}`
+     * The task: make a common logic so every time an event is received log `[${Date.now()}]: ${eventName}`
      */
 
     obj.emit('task:add');
