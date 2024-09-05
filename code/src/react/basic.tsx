@@ -29,31 +29,6 @@ import ReactDOM from 'react-dom/client';
 })();
 
 (() => {
-    function Counter() {
-        const [count, setCount] = useState(0);
-
-        const increment = () => {
-            setCount(count + 1);
-            setCount(count + 1);
-            setCount(count + 1);
-        };
-
-        return (
-            <div>
-                <p>Count: {count}</p>
-                <button onClick={increment}>Increment</button>
-            </div>
-        );
-    }
-
-    /**
-     * Task:
-     *  1. Explain why clicking the button only increments the count by 1, not 3.
-     *  2. How would you modify the increment function to actually increment by 3?
-     */
-})();
-
-(() => {
     function ExpensiveComponent({ data }) {
         console.log('ExpensiveComponent rendered');
         return <div>{data.join(', ')}</div>;
