@@ -49,8 +49,12 @@
 (async ()=>{
 
     const request = async (path) => {
-        console.log(`request function called with ${path}!`);
-        return `${path} has been requested..`;
+        return new Promise((res, rej) => {
+            setTimeout(() => {
+                console.log(`request function called with ${path}!`);
+                res(`${path} has been requested..`);
+            })
+        });
     };
 
     const paths = [
@@ -60,9 +64,10 @@
     ];
 
     /**
-     * The task: 
-     * 1. Loop thru `paths` and call `request` in parallel 
+     * The task:
+     * 1. Loop thru `paths` and call `request` in parallel
      * 2. Avoid performing duplicate requests of the same path but keep the responses' number the same (3 in this example)
      */
+
 })();
 

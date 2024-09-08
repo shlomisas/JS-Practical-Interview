@@ -9,7 +9,7 @@
 
     /**
      * The task: the output will be 5 times 5
-     * How to fix that without changing object `a`?
+     * How to fix it so it'll be 0, 1, 2, 3, 4?
      */
 })();
 
