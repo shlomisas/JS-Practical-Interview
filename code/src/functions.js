@@ -2,9 +2,9 @@
     // Assume:
 
     for (var i = 0; i < 5; i++) {
-        Promise.resolve().then(() => {
+        setTimeout(() => {
             console.log(i);
-        });
+        }, 1000);
     }
 
     /**
