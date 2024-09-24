@@ -40,8 +40,8 @@
 
     /**
      * The task:
-     * 1. Loop thru `paths` and call `request` in sequence (one after one)
-     * 2. Loop thru `paths` and call `request` in parallel
+     * 1. Loop thru `paths`, call `request` in sequence (one after one) and print the results
+     * 2. Loop thru `paths`, call `request` in parallel and print the results
      * 3. catch errors on each
      */
 })();
@@ -65,7 +65,7 @@
 
     /**
      * The task:
-     * 1. Loop thru `paths` and call `request` in parallel
+     * 1. Loop thru `paths`, call `request` in parallel and print the results
      * 2. Avoid performing duplicate requests of the same path but keep the responses' number the same (3 in this example)
      */
 
