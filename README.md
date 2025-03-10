@@ -17,6 +17,8 @@ Feel free to ask questions and suggest more! (PR's are more than welcome)
 * React
   * [Basic](code/src/react/basic.tsx)
   * [Hooks](code/src/react/hooks.tsx)
+* Typescript
+  * [Basic](code/src/typescript/basic.ts)
 
 ## Verbal Questions
 
