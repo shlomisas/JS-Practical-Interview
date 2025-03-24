@@ -40,34 +40,29 @@
      */
 })();
 
-(() => () => {
+(() => {
 
-    type CodeRes = {
-        code: string;
+    enum EVENTS {
+        A = 'a',
+        B = 'b',
+        C = 'c'
     }
-
-    type RedirectRes = {
-        redirect: string;
-    }
-
-    const getOPT = (phone: string): CodeRes | RedirectRes => {
-        if (phone === '123') {
-            return { code: '123' }
+    function foo (event: EVENTS) {
+        switch(event) {
+            case EVENTS.A:
+                return { a: 5 };
+            case EVENTS.B:
+                return { b: 'Kyrylo' };
+            case EVENTS.C:
+                return { c: { d: 5}};
         }
-        return { redirect: 'https://google.com' }
     }
 
-    const res = getOPT('123');
-
-    if ('code' in res) {
-        console.log(res.code);
-    } else {
-        console.log(res.redirect);
-    }
+    const res = foo(EVENTS.C);
 
     /**
      * The task:
-     * How to type the `getOPT` to the user won't need to use type guards to access the returned value?
+     * How to make `foo` return a strict type per event so we won't need to check `res` before using it?
      */
 
 })();
