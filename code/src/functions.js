@@ -84,12 +84,12 @@
      *  The task: Enhance localStorage to support TTL
       */
 
-    // When doing:
+    // So when doing:
     localStorage.setItem('key', 'value', 1000);
 
-    // After 1+ second
+    // And waiting 1+ second..
     await new Promise((resolve) => setTimeout(resolve, 1001));
 
-    // Expected output: null
+    // The expected output: null
     console.log(localStorage.getItem('key'));
 })();
