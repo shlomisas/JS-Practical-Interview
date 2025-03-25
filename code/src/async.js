@@ -51,7 +51,7 @@
     const request = async (path) => {
         return new Promise((res, rej) => {
             setTimeout(() => {
-                console.log(`${path} request has been resolved..`);
+                console.log(`${path} request has been called..`);
                 res(`${path} has been resolved..`);
             })
         });
