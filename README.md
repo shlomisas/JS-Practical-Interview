@@ -16,19 +16,12 @@ Feel free to ask questions and suggest more! (PR's are more than welcome)
   * [Basic](code/src/react/basic.tsx)
   * [Hooks](code/src/react/hooks.tsx)
 * Typescript
-  * [Basic](code/src/typescript/generics.ts)
-
-## Verbal Questions
-
-* [Frontend](verbal/frontend.md)
-* [Backend](verbal/backend.md)
-* [React](verbal/react.md)
-* [Vanilla](verbal/vanilla.md)
+  * [Basic](code/src/typescript/index.ts)
 
 ## Architecture Discussions
 
 * [Realtime Music Player](architecture/realtimeMusicPlayer.md)
-* [Micro-frontend skeleton](architecture/microFrontendSkeleton.md)
+* [Realtime Timer](architecture/realtimeTimer.md)
 
 ## Home Tasks
 
