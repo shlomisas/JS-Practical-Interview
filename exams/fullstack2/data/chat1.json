@@ -1,0 +1,85 @@
+{
+  "id": "650e8400-e29b-41d4-a716-446655440001",
+  "title": "Employee Onboarding",
+  "description": "Welcome to the employee onboarding process. We'll help you get set up with everything you need for your first day.",
+  "messages": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440100",
+      "type": "text",
+      "content": "Welcome to the onboarding process! Let's get you set up. First, please provide your full name.",
+      "continue": true
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440101",
+      "type": "input",
+      "content": "What is your preferred start date?",
+      "inputType": "date",
+      "validation": {
+        "required": true,
+        "errorMessage": "Please select a valid start date"
+      }
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440102",
+      "type": "text",
+      "content": "Great! Now, let's talk about your office location. We have several offices available:",
+      "continue": true
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440103",
+      "type": "input",
+      "content": "Please select your preferred office location:",
+      "inputType": "select",
+      "options": [
+        "New York",
+        "London",
+        "Tel Aviv",
+        "Berlin",
+        "Singapore"
+      ],
+      "validation": {
+        "required": true,
+        "errorMessage": "Please select an office location"
+      }
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440104",
+      "type": "text",
+      "content": "Let's set up your equipment. Please select the items you need:",
+      "continue": true
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440105",
+      "type": "input",
+      "content": "Select your required equipment:",
+      "inputType": "select",
+      "options": [
+        "Laptop (MacBook Pro)",
+        "External Monitor",
+        "Keyboard",
+        "Mouse",
+        "Headphones",
+        "Docking Station"
+      ],
+      "validation": {
+        "required": true,
+        "errorMessage": "Please select at least one equipment item"
+      }
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440106",
+      "type": "action",
+      "content": "Please review and confirm your onboarding details. Would you like to proceed?",
+      "actions": [
+        {
+          "type": "approve",
+          "label": "Confirm"
+        },
+        {
+          "type": "deny",
+          "label": "Review Again"
+        }
+      ]
+    }
+  ]
+} 
