@@ -1,21 +1,6 @@
 (() => {
     // Assume:
 
-    for (var i = 0; i < 5; i++) {
-        setTimeout(() => {
-            console.log(i);
-        }, 1000);
-    }
-
-    /**
-     * The task: the output will be 5 times 5
-     * How to fix it so it'll be 0, 1, 2, 3, 4?
-     */
-})();
-
-(() => {
-    // Assume:
-
     const a = {
         x: 5,
         foo() {
@@ -31,25 +16,20 @@
      */
 })();
 
-(() => {
-
-    // Assume:
-
-    // File: a.js
-    (() => {
-        Math.round(2.33);
-        Math.round(4 / 5);
-    })();
-
-    // File: b.js
-    (() => {
-        Math.round(3 * 2.4);
-        Math.round(6.387);
-    })();
+(async () => {
 
     /**
-     * The task: every time Math.round has been called, log whether the rounded number is even or odd in a single place
+     *  The task: Enhance localStorage to support TTL
      */
+
+    // So when doing:
+    localStorage.setItem('key', 'value', 1000);
+
+    // And waiting 1+ second..
+    await new Promise((resolve) => setTimeout(resolve, 1001));
+
+    // The expected output: null
+    console.log(localStorage.getItem('key'));
 })();
 
 ((obj) => {
@@ -77,19 +57,3 @@
     obj.emit('task:update', { data: { id: 5 } });
     obj.emit('task:remove', { data: { id: 5 } });
 })(new (require('events'))());
-
-(async () => {
-
-    /**
-     *  The task: Enhance localStorage to support TTL
-      */
-
-    // So when doing:
-    localStorage.setItem('key', 'value', 1000);
-
-    // And waiting 1+ second..
-    await new Promise((resolve) => setTimeout(resolve, 1001));
-
-    // The expected output: null
-    console.log(localStorage.getItem('key'));
-})();

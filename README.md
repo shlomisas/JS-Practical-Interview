@@ -10,15 +10,13 @@ Feel free to ask questions and suggest more! (PR's are more than welcome)
 * Native JS
   * [Basic](code/src/basic.js)
   * [Functions](code/src/functions.js)
-  * [Conditions](code/src/conditions.js)
   * [Async coding](code/src/async.js)
   * [Performance](code/src/performance.js)
-  * [Challenges](code/src/challenges.js)
 * React
   * [Basic](code/src/react/basic.tsx)
   * [Hooks](code/src/react/hooks.tsx)
 * Typescript
-  * [Basic](code/src/typescript/basic.ts)
+  * [Basic](code/src/typescript/generics.ts)
 
 ## Verbal Questions
 
