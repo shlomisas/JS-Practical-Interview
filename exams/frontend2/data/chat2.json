@@ -1,0 +1,89 @@
+{
+  "id": "650e8400-e29b-41d4-a716-446655440002",
+  "title": "System Access Request",
+  "description": "Request access to various systems and tools used in our organization.",
+  "messages": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440200",
+      "type": "text",
+      "content": "Welcome to the System Access Request process. Let's get you set up with the necessary access.",
+      "continue": true
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440201",
+      "type": "text",
+      "content": "First, let's verify your identity. Please provide your employee ID:",
+      "continue": true
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440202",
+      "type": "input",
+      "content": "Enter your employee ID:",
+      "inputType": "text",
+      "validation": {
+        "required": true,
+        "pattern": "^[A-Z]{2}\\d{6}$",
+        "errorMessage": "Employee ID must be in format: 2 letters followed by 6 digits"
+      }
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440203",
+      "type": "text",
+      "content": "Now, let's select the systems you need access to:",
+      "continue": true
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440204",
+      "type": "input",
+      "content": "Select the system you need access to:",
+      "inputType": "select",
+      "options": [
+        "GitHub",
+        "AWS",
+        "Sentry",
+        "Jira",
+        "Confluence",
+        "Slack",
+        "Google Workspace",
+        "VPN"
+      ],
+      "validation": {
+        "required": true,
+        "errorMessage": "Please select a system"
+      }
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440205",
+      "type": "text",
+      "content": "Please provide a brief justification for the requested access:",
+      "continue": true
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440206",
+      "type": "input",
+      "content": "Enter your justification:",
+      "inputType": "text",
+      "validation": {
+        "required": true,
+        "minLength": 50,
+        "maxLength": 500,
+        "errorMessage": "Justification must be between 50 and 500 characters"
+      }
+    },
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440207",
+      "type": "action",
+      "content": "Please review your access requests. Would you like to submit?",
+      "actions": [
+        {
+          "type": "approve",
+          "label": "Submit Request"
+        },
+        {
+          "type": "deny",
+          "label": "Review Again"
+        }
+      ]
+    }
+  ]
+} 
