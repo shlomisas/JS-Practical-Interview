@@ -34,8 +34,10 @@ Feel free to ask questions and suggest more! (PR's are more than welcome)
 
 ## Home Tasks
 
-* [Frontend](exams/frontend/README.md)
-* [Fullstack](exams/fullstack/README.md)
+* [Frontend1](exams/frontend1/README.md)
+* [Frontend3](exams/frontend2/README.md)
+* [Fullstack1](exams/fullstack1/README.md)
+* [Fullstack2](exams/fullstack2/README.md)
 
 _Good luck!_
 
