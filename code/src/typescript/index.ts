@@ -18,9 +18,11 @@
 
     const res = foo(EVENTS.C);
 
+    console.log(res.c.d);
+
     /**
      * The task:
-     *  How to make `foo` return a strict type per event so we won't need to check `res` before using it?
+     *  How to make `res.c` always valid?
      */
 
 })();
