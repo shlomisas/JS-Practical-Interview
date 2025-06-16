@@ -22,7 +22,7 @@
 
     /**
      * The task:
-     *  How to make `res.c` always valid?
+     *  How to make `res.c.d` always valid?
      */
 
 })();
