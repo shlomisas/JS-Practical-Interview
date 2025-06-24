@@ -16,9 +16,20 @@
     ];
 
     /**
-     * The task:
-     * 1. Loop through `paths`, call `request` in parallel and print the results
-     * 2. Avoid performing duplicate requests of the same path but keep the responses' number the same (3 in this example)
+     * Task:
+     *
+     * 1. Call `request(path)` for each item in `paths`.
+     * 2. Run all requests in **parallel**.
+     * 3. Avoid duplicate requests — only call `request` once per unique path.
+     * 4. Still return a result for every item in `paths` (3 results total), reusing results for duplicates.
+     *
+     * Expected console output:
+     *
+     *      /user/5 request has been called..
+     *      /user/7 request has been called..
+     *      /user/5 has been resolved..
+     *      /user/7 has been resolved..
+     *      /user/5 has been resolved..
      */
 
 })();
