@@ -16,7 +16,8 @@ Feel free to ask questions and suggest more! (PR's are more than welcome)
   * [Basic](code/src/react/basic.tsx)
   * [Hooks](code/src/react/hooks.tsx)
 * Typescript
-  * [Basic](code/src/typescript/index.ts)
+  * [Reverse](code/src/typescript/reverse.ts)
+  * [Types](code/src/typescript/types.ts)
 
 ## Architecture Discussions
 
